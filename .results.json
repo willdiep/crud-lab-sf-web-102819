@@ -1,0 +1,489 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 25,
+    "passes": 5,
+    "pending": 0,
+    "failures": 20,
+    "start": "2021-01-01T02:40:04.251Z",
+    "end": "2021-01-01T02:40:04.523Z",
+    "duration": 272
+  },
+  "tests": [
+    {
+      "title": "has an text input field",
+      "fullTitle": "RestaurantInput has an text input field",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at Object.RestaurantInput [as type] (src/components/restaurants/RestaurantInput.js:4:27)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:16:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "RestaurantInput has an initial state with text key set to empty string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at Object.RestaurantInput [as type] (src/components/restaurants/RestaurantInput.js:4:27)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:21:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "changes the component state with an onChange event",
+      "fullTitle": "RestaurantInput changes the component state with an onChange event",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at Object.RestaurantInput [as type] (src/components/restaurants/RestaurantInput.js:4:27)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:26:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
+      "duration": 23,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:35:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays a list of restaurant components",
+      "fullTitle": "Restaurants Component displays a list of restaurant components",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:56:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays the appropriate text",
+      "fullTitle": "Restaurant Component displays the appropriate text",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an li",
+      "fullTitle": "Restaurant Component renders an li",
+      "duration": 28,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an unique id property for each element",
+      "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:78:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has the restaurant as a prop",
+      "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:101:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:121:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:134:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays the ReviewInput component as a child of each Restaurant Component",
+      "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:21:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has two text input fields, one for review input, and another for submitting",
+      "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "ReviewInput Component has an initial state with text key set to empty string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "changes the component state with an onChange event",
+      "fullTitle": "ReviewInput Component changes the component state with an onChange event",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adds a review to the store when the form is submitted",
+      "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:49:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:66:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "sets a property of restaurantId on the review input component from the parent components id",
+      "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:81:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "associates the review with the restaurant with a foreign key on the review",
+      "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:92:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "is a child of the ReviewsContainer component",
+      "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:110:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays a review for when it is associated with the restaurant",
+      "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:121:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "does not display any review unassociated with the restaurant",
+      "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:134:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has an unique id property that for each element",
+      "fullTitle": "Reviews Component has an unique id property that for each element",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:143:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
+      "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:164:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Reviews Component updates the state of the store to remove the component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:179:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has an text input field",
+      "fullTitle": "RestaurantInput has an text input field",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at Object.RestaurantInput [as type] (src/components/restaurants/RestaurantInput.js:4:27)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:16:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "RestaurantInput has an initial state with text key set to empty string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at Object.RestaurantInput [as type] (src/components/restaurants/RestaurantInput.js:4:27)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:21:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "changes the component state with an onChange event",
+      "fullTitle": "RestaurantInput changes the component state with an onChange event",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at Object.RestaurantInput [as type] (src/components/restaurants/RestaurantInput.js:4:27)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:145:34)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:103:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:26:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
+      "duration": 23,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:35:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays a list of restaurant components",
+      "fullTitle": "Restaurants Component displays a list of restaurant components",
+      "duration": 17,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:56:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has an unique id property for each element",
+      "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:78:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has the restaurant as a prop",
+      "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:101:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:121:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/restaurants-test.js:134:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays the ReviewInput component as a child of each Restaurant Component",
+      "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:21:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "adds a review to the store when the form is submitted",
+      "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:49:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:66:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "sets a property of restaurantId on the review input component from the parent components id",
+      "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:81:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "associates the review with the restaurant with a foreign key on the review",
+      "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:92:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "is a child of the ReviewsContainer component",
+      "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:110:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "displays a review for when it is associated with the restaurant",
+      "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:121:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "does not display any review unassociated with the restaurant",
+      "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:134:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has an unique id property that for each element",
+      "fullTitle": "Reviews Component has an unique id property that for each element",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:143:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
+      "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:164:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Reviews Component updates the state of the store to remove the component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: (0 , _react.useState) is not a function\n    at RestaurantInput (src/components/restaurants/RestaurantInput.js:4:27)\n    at mountIndeterminateComponent (node_modules/react-dom/cjs/react-dom.development.js:13381:13)\n    at beginWork (node_modules/react-dom/cjs/react-dom.development.js:13821:14)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:15864:12)\n    at workLoop (node_modules/react-dom/cjs/react-dom.development.js:15903:24)\n    at renderRoot (node_modules/react-dom/cjs/react-dom.development.js:15943:7)\n    at performWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:16561:22)\n    at performWork (node_modules/react-dom/cjs/react-dom.development.js:16483:7)\n    at performSyncWork (node_modules/react-dom/cjs/react-dom.development.js:16455:3)\n    at requestWork (node_modules/react-dom/cjs/react-dom.development.js:16355:5)\n    at scheduleWork$1 (node_modules/react-dom/cjs/react-dom.development.js:16219:11)\n    at scheduleRootUpdate (node_modules/react-dom/cjs/react-dom.development.js:16786:3)\n    at updateContainerAtExpirationTime (node_modules/react-dom/cjs/react-dom.development.js:16813:10)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:16840:10)\n    at ReactRoot.render (node_modules/react-dom/cjs/react-dom.development.js:17123:3)\n    at /Users/will/Desktop/crud-lab-sf-web-102819 (hooks)/node_modules/react-dom/cjs/react-dom.development.js:17263:14\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:16680:10)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:17259:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:17318:12)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:218:50)\n    at new ReactWrapper (node_modules/enzyme/build/ReactWrapper.js:98:16)\n    at mount (node_modules/enzyme/build/mount.js:19:10)\n    at Context.<anonymous> (test/reviews-test.js:179:21)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "(0 , _react.useState) is not a function"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "displays the appropriate text",
+      "fullTitle": "Restaurant Component displays the appropriate text",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an li",
+      "fullTitle": "Restaurant Component renders an li",
+      "duration": 28,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has two text input fields, one for review input, and another for submitting",
+      "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "ReviewInput Component has an initial state with text key set to empty string",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "changes the component state with an onChange event",
+      "fullTitle": "ReviewInput Component changes the component state with an onChange event",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

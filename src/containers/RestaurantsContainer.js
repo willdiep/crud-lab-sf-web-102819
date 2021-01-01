@@ -1,21 +1,35 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import RestaurantInput from '../components/restaurants/RestaurantInput'
 import Restaurants from '../components/restaurants/Restaurants'
 
-class RestaurantsContainer extends Component {
-  render() {
-    return (
-      <div>
-        <RestaurantInput addRestaurant={this.props.addRestaurant} />
-        <Restaurants
-          restaurants={this.props.restaurants}
-          deleteRestaurant={this.props.deleteRestaurant}
-        />
-      </div>
-    )
-  }
+//* Destructure props
+function RestaurantsContainer({
+  restaurants,
+  addRestaurant,
+  deleteRestaurant,
+}) {
+  return (
+    <div>
+      <RestaurantInput addRestaurant={addRestaurant} />
+      <Restaurants
+        restaurants={restaurants}
+        deleteRestaurant={deleteRestaurant}
+      />
+    </div>
+  )
 }
+// function RestaurantsContainer(props) {
+//   return (
+//     <div>
+//       <RestaurantInput addRestaurant={props.addRestaurant} />
+//       <Restaurants
+//         restaurants={props.restaurants}
+//         deleteRestaurant={props.deleteRestaurant}
+//       />
+//     </div>
+//   )
+// }
 
 const mapStateToProps = (state) => {
   return {

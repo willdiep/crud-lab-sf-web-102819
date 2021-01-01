@@ -35,7 +35,7 @@
     "sinon": "^6.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "mocha --timeout 5000 -w test/helpers/browser.js test/*.js",
     "eject": "react-scripts eject"
